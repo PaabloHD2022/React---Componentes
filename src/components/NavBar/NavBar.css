@@ -1,0 +1,25 @@
+.menu-navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: midnightblue;
+    height: 100px;
+}
+
+.menu-items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+.menu-list{
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
