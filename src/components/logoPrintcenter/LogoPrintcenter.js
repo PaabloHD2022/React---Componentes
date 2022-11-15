@@ -1,4 +1,4 @@
-import React from 'react'
+
 import LogoNavBar from '../../assets/Logo Printcenter - letras blancas.png'
 import './LogoPrintcenter.css'
 

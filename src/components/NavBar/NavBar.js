@@ -1,4 +1,3 @@
-import React from 'react'
 import LogoPrintcenter from '../logoPrintcenter/LogoPrintcenter'
 import CartWidget from '../CartWidget/CartWidget'
 import './NavBar.css'

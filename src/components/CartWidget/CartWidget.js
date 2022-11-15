@@ -1,4 +1,3 @@
-import React from 'react'
 import cartImg from '../../assets/pngwing.com.png'
 import './CartWidget.css'
 
