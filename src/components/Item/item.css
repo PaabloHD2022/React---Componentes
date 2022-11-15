@@ -1,11 +1,11 @@
 .Card_Item{
     width: 300px;
-    height:650px;
-    text-align: center;
+    height:630px;
     margin: 25px;
     padding: 20px;
     border: 1px #000 solid;
-    border-radius: 6px;  
+    border-radius: 6px;
+     
 }
 
 .Card_Item img{
@@ -18,8 +18,30 @@
     text-align: center;
 }
 
-.Card_Item p{
-    font-size: 12px;
-    text-align: justify;
+.p_minima{
+    color: red;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
 }
+
+.desc{
+    font-weight: 400;
+    font-size: 11px;
+    text-align: justify;
+    flex-grow: 1; 
+}
+
+.cant{
+    color:green;
+    font-size: 15px;
+    font-weight: 600s;   
+}
+
+.precio{
+    font-weight: 900;
+    font-size: 15px;
+}
+
+
 
