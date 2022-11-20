@@ -1,7 +1,11 @@
-.items{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+.items_list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    margin-left: 100px;
-    margin-top: 100px;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    margin: 30px 0 0 120px;
+    
 }

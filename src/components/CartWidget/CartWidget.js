@@ -1,10 +1,12 @@
-import cartImg from '../../assets/pngwing.com.png'
 import './CartWidget.css'
+import { Link } from "react-router-dom"
+import cartImg from '../../assets/pngwing.com.png'
+
 
 const CartWidget = () => {
     return (
         <div className='menu-navbar__logo'>
-            <img className='menu-navbar__img' src={cartImg} alt='cart-widget'/>
+            <Link to="cart"><img className='menu-navbar__img' src={cartImg} alt='cart-widget'/></Link>
         </div>
     )
 }

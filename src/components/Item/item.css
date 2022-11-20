@@ -1,47 +1,96 @@
-.Card_Item{
-    width: 300px;
-    height:630px;
-    margin: 25px;
-    padding: 20px;
-    border: 1px #000 solid;
-    border-radius: 6px;
-     
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Montserrat:wght@300&family=Roboto+Condensed:wght@300;400&display=swap');
+.card_item{
+    width: 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(185, 185, 185);
+    border-radius: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
 }
 
-.Card_Item img{
-    width: 300px;
+.card_item:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
 }
 
-.Card_Item h2{
-    font-size: 18px;
+.img_producto{
+    padding: 10px;
+}
+
+.img_producto>img{
+    width: 330px;
+    border-radius: 10px;
+}
+
+.info_producto{
+    width: 350px;
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
     text-transform: uppercase;
-    text-align: center;
+    align-items: center;
+    text-decoration: none;
 }
 
-.p_minima{
-    color: red;
-    font-weight: 700;
-    font-size: 13px;
+.info_producto h2{
+    font-size: 24px;
     text-align: center;
+    align-items: center;
+    color: rgb(18, 81, 197);
+    width: 330px;
+    padding: 10px 0 10px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
 }
 
 .desc{
-    font-weight: 400;
-    font-size: 11px;
-    text-align: justify;
-    flex-grow: 1; 
+    font-size: 10px;
+    text-decoration: none;
 }
 
-.cant{
-    color:green;
-    font-size: 15px;
-    font-weight: 600s;   
+.cant_precio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+}
+
+.p_minima{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 330px;
+    padding: 5px 0 5px 0;
+    align-items: center;
+    background: rgb(18, 81, 197);
+    text-decoration: none;
 }
 
 .precio{
-    font-weight: 900;
-    font-size: 15px;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+    background: rgb(226, 168, 9);
+    padding:10px;
+    border-radius: 20px;
+    width: 130px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
 }
 
+.contador_producto{
+    width: 350px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: right;
+    padding: 0 20px 20px 20px;
+    text-decoration: none;
+    }
 
 

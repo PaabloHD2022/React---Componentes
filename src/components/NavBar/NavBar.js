@@ -1,6 +1,8 @@
+import './NavBar.css'
+import { Link } from 'react-router-dom'
 import LogoPrintcenter from '../logoPrintcenter/LogoPrintcenter'
 import CartWidget from '../CartWidget/CartWidget'
-import './NavBar.css'
+
 
 const NavBar = () => {
     return (
@@ -17,13 +19,13 @@ const NavBar = () => {
                     <a href='#' className='menu-list'>Servicios</a>
                 </li>
                 <li>
-                    <a href='#' className='menu-list'>Tienda</a>
+                    <Link to="/" className='menu-list'>Tienda</Link> 
                 </li>
                 <li>
                     <a href='#' className='menu-list'>Contacto</a>
                 </li>    
             </ul>
-        <CartWidget/>        
+        <CartWidget />        
         </div>  
         )
 }

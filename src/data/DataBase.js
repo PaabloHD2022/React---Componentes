@@ -8,18 +8,20 @@
             "Img": "./Items/Agenda_B&N_Tapa_Dura.png",
             "Cantidad": "100",
             "Precio": 120000,
-            "Estado": 1       
+            "Estado": 1,
+            "Categoria": "Libros",      
         },
 
-        {
+         {
             "id": 2,
-            "Nombre": "Libros a 4 colores Tapa Dura",
+            "Nombre": "Libros full color Tapa Dura",
             "ProduccionMinima": "100 ejemplares.",
             "Descripcion": "Medidas 17x24 cms cerr. / 34x24 cms ab. Int: 96 pag 4/4 ilus mate 130 grs. Tapa: 4/0 + polipropileno mate frente ilus mate 300 grs -NO INCLUYE DISEÑO- . Realizada la compra nos pondremos en contacto para coordinar la recepción de los originales en formato PDF. *Consultar por otros productos y/o variantes*",
             "Img": "./Items/Libros_Color_Tapa_Dura.png",
             "Cantidad": "100",
             "Precio": 190000,
-            "Estado": 0
+            "Estado": 0,
+            "Categoria": "Libros", 
         },
 
         {
@@ -30,7 +32,8 @@
             "Img": "./Items/Agenda_B&N_Tapa_Dura.png",
             "Cantidad": "200",
             "Precio": 90000,
-            "Estado": 2
+            "Estado": 2,
+            "Categoria": "Agendas", 
         },
 
         {
@@ -41,7 +44,8 @@
             "Img": "./Items/Agenda_Color_Tapa_Dura.png",
             "Cantidad": "100",
             "Precio": 140000,
-            "Estado": 2
+            "Estado": 2,
+            "Categoria": "Agendas", 
         },
 
         {
@@ -52,7 +56,8 @@
             "Img": "./Items/Almanaques.png",
             "Cantidad": "300",
             "Precio": 80000,
-            "Estado": 2
+            "Estado": 2,
+            "Categoria": "Calendarios", 
         },
 
         {
@@ -63,7 +68,8 @@
             "Img": "./Items/Banner - RollUp.png",
             "Cantidad": "1",
             "Precio": 25000,
-            "Estado": 0
+            "Estado": 0,
+            "Categoria": "Gigantografias", 
         },
 
         {
@@ -74,7 +80,8 @@
             "Img": "./Items/Bolsas_Tela.png",
             "Cantidad": "1000",
             "Precio": 30000,
-            "Estado": 1
+            "Estado": 1,
+            "Categoria": "Bolsas", 
         },
 
         {
@@ -85,7 +92,8 @@
             "Img": "./Items/Cajas_Carton_Personalizadas.png",
             "Cantidad": "500",
             "Precio": 200000,
-            "Estado": 0
+            "Estado": 0,
+            "Categoria": "Cajas", 
         },
 
         {
@@ -96,7 +104,8 @@
             "Img": "./Items/Carteleria_PVC.png",
             "Cantidad": "50",
             "Precio": 25000,
-            "Estado": 1
+            "Estado": 1,
+            "Categoria": "Carteleria", 
         },
 
         {
@@ -107,7 +116,8 @@
             "Img": "./Items/Catalogos_Acaballados.png",
             "Cantidad": "200",
             "Precio": 130000,
-            "Estado": 1
+            "Estado": 1,
+            "Categoria": "Catalogos", 
         },
 
         {
@@ -118,7 +128,8 @@
             "Img": "./Items/Catalogos_Premium.png",
             "Cantidad": "100",
             "Precio": 250000,
-            "Estado": 0
+            "Estado": 0,
+            "Categoria": "Catalogos", 
         },
 
         {
@@ -129,7 +140,8 @@
             "Img": "./Items/Cuadernos_Tapa_Blanda.png",
             "Cantidad": "100",
             "Precio": 110000,
-            "Estado": 2
+            "Estado": 2,
+            "Categoria": "Cuadernos", 
         },
 
         {
@@ -140,7 +152,8 @@
             "Img": "./Items/Cuadernos_Tapa_Dura.png",
             "Cantidad": "300",
             "Precio": 150000,
-            "Estado": 1
+            "Estado": 1,
+            "Categoria": "Cuadernos", 
         }
     ]
 

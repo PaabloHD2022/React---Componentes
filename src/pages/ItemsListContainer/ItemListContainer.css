@@ -1,0 +1,7 @@
+.items_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 40px;
+    
+}
