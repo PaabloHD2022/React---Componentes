@@ -9,22 +9,29 @@ const ItemDetailContainer = () => {
     const [selectedProduct, setselectedProduct] = useState();
     const {id} = useParams();
 
-    const getProducts = () => {
-        const productFiltered = data.filter((product) => {
-            return product.id === id;
-        })
-        setselectedProduct(productFiltered)
-    }
+    const getProducts = new Promise((resolve, reject) =>{
+        setTimeout(() =>{
+            {
+                resolve(data);
+            };
+        }, 1000)
+    });
+    
+    useEffect(() =>{
+        getProducts.then((resolve) => {
+            if(id){
+                setselectedProduct(resolve.filter((data) => data.id === id))
+            }else{
+            }
+        });
+        setTimeout(() =>{
+        }, 1000)
 
-    useEffect (() => {
-        getProducts();
-    }, [id])
+    }, [id]);
 
     return (
-        <div>
-            {selectedProduct && 
-            <ItemDetails selectedProduct={selectedProduct} /> 
-            }
+        <div className='selected_product'>
+            {selectedProduct && <ItemDetails selectedProduct={selectedProduct} />}
         </div>
     )
 }
