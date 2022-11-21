@@ -5,6 +5,7 @@ import { data } from '../../data/DataBase'
 import ItemDetails from '../../components/ItemDetails/ItemDetails'
 
 const ItemDetailContainer = () => {
+    
     const [selectedProduct, setselectedProduct] = useState();
     const {id} = useParams();
 
@@ -14,13 +15,16 @@ const ItemDetailContainer = () => {
         })
         setselectedProduct(productFiltered)
     }
-    useEffect(() => {
+
+    useEffect (() => {
         getProducts();
     }, [id])
 
     return (
         <div>
-            {selectedProduct && <ItemDetails selectedProduct={selectedProduct} /> }
+            {selectedProduct && 
+            <ItemDetails selectedProduct={selectedProduct} /> 
+            }
         </div>
     )
 }
