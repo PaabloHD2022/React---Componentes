@@ -20,7 +20,7 @@ const ItemDetailContainer = () => {
     useEffect(() =>{
         getProducts.then((resolve) => {
             if(id){
-                setselectedProduct(resolve.filter((data) => data.id === id))
+                setselectedProduct(resolve.find((data) => data.id == id))
             }else{
             }
         });

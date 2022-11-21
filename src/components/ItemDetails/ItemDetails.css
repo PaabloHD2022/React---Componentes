@@ -3,7 +3,7 @@
 
 .Card_Item_Selected{
     width: 700px;
-    height: 550px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     border: 2px solid rgb(185, 185, 185);
@@ -11,6 +11,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     text-decoration: none;
     margin: 0 auto;
+    padding: 30px;
 
 }
 
@@ -19,16 +20,16 @@
     text-decoration: none;
 }
 
-.img_producto{
+.Img2{
     padding: 10px;
 }
 
-.img_producto>img{
+.Img2 > img{
     width: 330px;
     border-radius: 10px;
 }
 
-.info_producto{
+/* .info_producto{
     width: 350px;
     line-height: 15px;
     display: flex;
@@ -37,43 +38,45 @@
     text-transform: uppercase;
     align-items: center;
     text-decoration: none;
-}
+} */
 
-.info_producto h2{
-    font-size: 24px;
+.titulo2{
+    font-size: 35px;
     text-align: center;
     align-items: center;
     color: rgb(18, 81, 197);
-    width: 330px;
+    width: 700px;
     padding: 10px 0 10px 0;
     font-family: 'Roboto Condensed', sans-serif;
     text-decoration: none;
 }
 
-.desc{
-    font-size: 10px;
+.desc2{
+    font-size: 20px;
     text-decoration: none;
+    padding: 20px;
+    text-align: justify;
 }
 
-.cant_precio{
+.cant2{
     display: flex;
     flex-direction: column;
     text-align: center;
     text-decoration: none;
 }
 
-.p_minima{
-    font-size: 12px;
+.p_minima2{
+    font-size: 20px;
     text-align: center;
     color: rgb(255, 255, 255);
-    width: 330px;
+    width: 700px;
     padding: 5px 0 5px 0;
     align-items: center;
     background: rgb(18, 81, 197);
     text-decoration: none;
 }
 
-.precio{
+.precio2{
     font-size: 16px;
     color:rgb(255, 255, 255);
     background: rgb(226, 168, 9);
