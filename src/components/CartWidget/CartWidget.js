@@ -6,7 +6,7 @@ import cartImg from '../../assets/pngwing.com.png'
 const CartWidget = () => {
     return (
         <div className='menu-navbar__logo'>
-            <Link to="cart"><img className='menu-navbar__img' src={cartImg} alt='cart-widget'/></Link>
+            <Link to={"/cart"}><img className='menu-navbar__img' src={cartImg} alt='cart-widget'/></Link>
         </div>
     )
 }

@@ -19,9 +19,10 @@
 
 .img_producto{
     padding: 10px;
+    margin-bottom: 30px;
 }
 
-.img_producto>img{
+.img_producto img{
     width: 330px;
     border-radius: 10px;
 }
@@ -74,24 +75,16 @@
 .precio{
     font-size: 16px;
     color:rgb(255, 255, 255);
-    background: rgb(226, 168, 9);
+    background: rgb(255, 153, 0);
     padding:10px;
     border-radius: 20px;
-    width: 130px;
+    width: 200px;
+    margin: 0 auto;
     text-align: center;
-    font-weight: 600;
+    font-weight: bolder;
     font-family: 'Barlow', sans-serif;
-    text-decoration: none;
+    flex-grow: 1;
 }
 
-/* .contador_producto{
-    width: 350px;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: right;
-    padding: 0 20px 20px 20px;
-    text-decoration: none;
-    } */
 
 
